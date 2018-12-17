@@ -16,6 +16,9 @@
                      <li>The DrHub News System is in progress!</li>
                  </ul>
             </div>
+            <form>
+                <input id="secrets" type="text" class="search" onkeypress="search(event)" />
+            </form>
       </body>
   
       <!-- Style Code -->
@@ -47,5 +50,24 @@
            position: absolute; 
            top: 25%; left: 2%;
           }
+          #secrets {
+           width: 100%;
+           text-align:center;
+          }
       </style>
+      <script type="text/javascript">
+
+                function search(e) {
+                    var x = document.getElementById("secrets").value;
+                    var keynum;
+
+                    switch(e.key) {
+                        case "mountain king":
+                            window.location.replace("thatcodingguy8.github.io")
+                        break;
+                    }
+                }
+
+       </script>
+
 </html>
