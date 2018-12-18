@@ -6,6 +6,7 @@
             <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
       </head>
       <body>
+           <div id="all">
             <div id="Title-Div">
                  <h1 id="title" align="center">Welcome to the one and only DrHub!!!</h1>
             </div>
@@ -16,15 +17,17 @@
                      <li>The DrHub News System is in progress!</li>
                  </ul>
             </div>
-            <div align="bottom">
-                <form>
-                     <input id="secrets" type="text" class="search" onkeypress="search(event)" />
-                </form>
             </div>
+            <form>
+                 <input id="secrets" type="text" class="search" onkeypress="search(event)" />
+            </form>   
       </body>
   
       <!-- Style Code -->
       <style>
+          #all {
+           height: 100em;
+          }
           #title {
               font-size: 45px;
               color: darkred;
